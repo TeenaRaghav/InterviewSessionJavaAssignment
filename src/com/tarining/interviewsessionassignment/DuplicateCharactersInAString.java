@@ -7,11 +7,11 @@ import java.util.Scanner;
 public class DuplicateCharactersInAString {
 	public static void findDuplicate(String str) {
 		str = str.toLowerCase();
-		
+
 		Map<Character, Integer> charCountMap = new HashMap<>();
-		for(Character c : str.toCharArray()) {
-			if(Character.isLetter(c)) {
-				charCountMap.put(c, charCountMap.getOrDefault(c, 0) +1);
+		for (Character c : str.toCharArray()) {
+			if (Character.isLetter(c)) {
+				charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
 			}
 		}
 //		for(char c : str.toCharArray()) {
@@ -21,16 +21,17 @@ public class DuplicateCharactersInAString {
 //				charCountMap.put(c, 1);
 //			}
 //		}
-		System.out.println("Duplicate characters in a String :");
-		for(Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
-			if(entry.getValue() > 1) {
-				System.out.println(entry.getKey());
+		for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
+			if (entry.getValue() > 1) {
+				System.out.println("Duplicate character is : "+ entry.getKey());
 			}
 		}
 	}
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String str =sc.nextLine();
+		System.out.println("Enter the String:");
+		String str = sc.nextLine();
 		findDuplicate(str);
 	}
 }
