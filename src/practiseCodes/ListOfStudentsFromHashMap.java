@@ -1,4 +1,4 @@
-package com.tarining.interviewsessionassignment;
+package practiseCodes;
 
 import java.util.ArrayList;
 import java.util.HashMap;

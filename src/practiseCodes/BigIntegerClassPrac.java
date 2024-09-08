@@ -1,4 +1,4 @@
-package com.tarining.interviewsessionassignment;
+package practiseCodes;
 
 import java.math.BigInteger;
 import java.util.Scanner;

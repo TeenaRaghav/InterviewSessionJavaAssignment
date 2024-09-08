@@ -1,4 +1,4 @@
-package com.tarining.interviewsessionassignment;
+package practiseCodes;
 
 import java.text.NumberFormat;
 import java.util.Locale;

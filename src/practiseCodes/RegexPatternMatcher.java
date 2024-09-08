@@ -1,4 +1,4 @@
-package com.tarining.interviewsessionassignment;
+package practiseCodes;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,4 +1,4 @@
-package com.tarining.interviewsessionassignment;
+package practiseCodes;
 
 public class OneNoteInterviewCodes {
 public static void main(String[] args) {
